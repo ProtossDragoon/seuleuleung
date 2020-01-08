@@ -126,7 +126,9 @@ STATIC_URL = '/static/'
 
 # https://blog.hannal.com/2015/04/start_with_django_webframework_06/
 # STATICFILES_DIRS 는 프로젝트 전체의 STATIC 파일들을 쉽게 관리할 수 있게 돕는다.
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'seuleuleung/static'),]
 
 print(STATICFILES_DIRS, end='\n')
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
